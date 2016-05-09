@@ -1,7 +1,7 @@
 require "sinatra/base"
 require "sinatra/json"
 
-require_relative "radar"
+#require_relative "radar"
 
 class FlightSchool < Sinatra::Base
   get "/" do
